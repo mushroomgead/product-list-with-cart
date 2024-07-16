@@ -20,7 +20,10 @@ export default function OrderConfirm() {
         <OrderItem />
         <CartSummary />
       </div>
-      <PrimaryButton name="Start New Order" />
+      <PrimaryButton
+        name="Start New Order"
+        onClick={() => console.log("start new order")}
+      />
     </div>
   );
 }
